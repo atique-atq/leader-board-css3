@@ -1,15 +1,29 @@
 /* fonts */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 
-/* common-styles */
+/* common-styles or utilites */
 body{
     font-family: 'Poppins', sans-serif;
+    background-color: #F3F1FF;
+}
+main{
+    display: flex;
+    justify-content: center;
+}
+.container{
+    background-color: white;
+    width: 870px;
+    padding: 30px;
 }
 /* top players style */
 .players{
     display: grid;
     /* grid-template-columns: repeat(3, 1fr); */
     grid-template-columns: 1fr 1fr 1fr;
+}
+.section-title{
+    color: #562EFF;
+    font-size: 24px;
 }
 .player{
     display: flex;
@@ -18,4 +32,8 @@ body{
 .player img{
     width: 56px;
     height: 56px;
+}
+.player-name{
+    font-size: 18px;
+    padding-left: 16px;;
 }
