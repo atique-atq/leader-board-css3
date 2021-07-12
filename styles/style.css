@@ -109,3 +109,9 @@ Top Blogs Style
     color: #AEAEAE;
 }
 
+/*-----------------------
+     Media Query    
+------------------------ */
+@media only screen and (max-width: 688px) {
+    
+}
