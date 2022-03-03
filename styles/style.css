@@ -137,8 +137,6 @@ Top Blogs Style
     .blogs{
         grid-template-columns: repeat(1, 1fr);
     }
-    
->>>>>>> d3a00305328d17eac0f7be570338dfb567c61af2
 }
 
 
