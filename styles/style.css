@@ -112,21 +112,33 @@ Top Blogs Style
 /*-----------------------
      Media Query    
 ------------------------ */
-@media (max-width:992px){
-    .top-players, .courses{
+
+/* Mobile Devices */
+@media only screen and (max-width: 688px) {
+    .container{
+        width: 100%;
+    }
+    .players, .blogs, .courses{
+        grid-template-columns: repeat(1, 1fr);  
+    }
+    .player, .blog {
+        flex-direction: column  ;
+    }
+}
+
+/* Tablet Devices */
+@media only screen and (min-width:688px) and (max-width: 992px) {
+    .container{
+        width: 100%;
+    }
+    .players, .blogs, .courses{
         grid-template-columns: repeat(2, 1fr);
     }
     .blogs{
         grid-template-columns: repeat(1, 1fr);
     }
-}
-@media (max-width:668px){
-    .top-players, .courses{
-        grid-template-columns: repeat(1, 1fr);
-    }
-    .blog{
-        display: block;
-    }
+    
+>>>>>>> d3a00305328d17eac0f7be570338dfb567c61af2
 }
 
 
